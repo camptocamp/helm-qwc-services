@@ -1,0 +1,21 @@
+apiVersion: v1
+entries:
+  qwc:
+  - apiVersion: v2
+    created: "2023-01-05T07:46:31.598006696Z"
+    dependencies:
+    - alias: qgis
+      name: custom-pod
+      repository: https://camptocamp.github.io/helm-custom-pod/
+      version: 0.4.2
+    - alias: qwc
+      name: custom-pod
+      repository: https://camptocamp.github.io/helm-custom-pod/
+      version: 0.4.2
+    description: A Helm chart for deploying Qgis Web Client services on Kubernetes
+    digest: 5e5e8f1e74763ce7389d80b1942ad83a59c6fa238e7b8cdcaffb6b556ee2b6d6
+    name: qwc
+    urls:
+    - https://github.com/camptocamp/helm-qwc-services/releases/download/0.1.7/qwc-0.1.7.tgz
+    version: 0.1.7
+generated: "2023-01-05T07:46:31.598169802Z"
