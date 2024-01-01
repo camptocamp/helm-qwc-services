@@ -170,7 +170,7 @@ qwc:
         uwsgi:
           image:
             repository: sourcepole/qwc-admin-gui
-            tag: v2022.03.19
+            tag: v2023.12.21
             sha: ''
           ports:
             <<: *common-ports
