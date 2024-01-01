@@ -80,7 +80,7 @@ repos:
       - id: jsonschema-validator
         files: ^ci/config\.yaml$
   - repo: https://github.com/camptocamp/helm-common
-    rev: 0.7.1
+    rev: 1.0.1
     hooks:
       - id: helm-template-gen
         files: |-
