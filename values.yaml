@@ -118,7 +118,7 @@ qgis:
         qgis:
           image:
             repository: sourcepole/qwc-qgis-server
-            tag: 3.28-plugins
+            tag: 3.34-plugins
             sha: ''
           ports:
             http:
@@ -170,7 +170,7 @@ qwc:
         uwsgi:
           image:
             repository: sourcepole/qwc-admin-gui
-            tag: v2022.03.19
+            tag: v2022.09.15
             sha: ''
           ports:
             <<: *common-ports
@@ -202,7 +202,7 @@ qwc:
         uwsgi:
           image:
             repository: sourcepole/qwc-db-auth
-            tag: v2023.0-lts
+            tag: v2023.2-lts
             sha: ''
           ports:
             <<: *common-ports
@@ -230,7 +230,7 @@ qwc:
         uwsgi:
           image:
             repository: sourcepole/qwc-config-generator
-            tag: v2023.7-lts
+            tag: v2023.12-lts
             sha: ''
           ports:
             <<: *common-ports
@@ -269,7 +269,7 @@ qwc:
         uwsgi:
           image:
             repository: sourcepole/qwc-data-service
-            tag: v2023.1-lts
+            tag: v2023.5-lts
             sha: ''
           ports:
             <<: *common-ports
@@ -296,7 +296,7 @@ qwc:
         uwsgi:
           image:
             repository: sourcepole/qwc-document-service
-            tag: v2023.0-lts
+            tag: v2023.2-lts
             sha: ''
           ports:
             <<: *common-ports
@@ -320,7 +320,7 @@ qwc:
         uwsgi:
           image:
             repository: sourcepole/qwc-elevation-service
-            tag: v2023.0-lts
+            tag: v2023.2-lts
             sha: ''
           ports:
             <<: *common-ports
@@ -342,7 +342,7 @@ qwc:
         uwsgi:
           image:
             repository: sourcepole/qwc-feature-info-service
-            tag: v2023.0-lts
+            tag: v2023.2-lts
             sha: ''
           ports:
             <<: *common-ports
@@ -366,7 +366,7 @@ qwc:
         uwsgi:
           image:
             repository: sourcepole/qwc-fulltext-search-service
-            tag: v2023.0-lts
+            tag: v2023.2-lts
             sha: ''
           ports:
             <<: *common-ports
@@ -390,7 +390,7 @@ qwc:
         uwsgi:
           image:
             repository: sourcepole/qwc-mapinfo-service
-            tag: v2023.0-lts
+            tag: v2023.10-lts
             sha: ''
           ports:
             <<: *common-ports
@@ -414,7 +414,7 @@ qwc:
         uwsgi:
           image:
             repository: sourcepole/qwc-legend-service
-            tag: v2023.0-lts
+            tag: v2023.3-lts
             sha: ''
           ports:
             <<: *common-ports
@@ -442,7 +442,7 @@ qwc:
         uwsgi:
           image:
             repository: sourcepole/qwc-print-service
-            tag: v2023.0-lts
+            tag: v2023.2-lts
             sha: ''
           ports:
             <<: *common-ports
@@ -466,7 +466,7 @@ qwc:
         uwsgi:
           image:
             repository: sourcepole/qwc-map-viewer-demo
-            tag: v2023.4-lts
+            tag: v2023.12-lts
             sha: ''
           ports:
             <<: *common-ports
@@ -488,7 +488,7 @@ qwc:
         uwsgi:
           image:
             repository: sourcepole/qwc-ogc-service
-            tag: v2023.0-lts
+            tag: v2023.2-lts
             sha: ''
           ports:
             <<: *common-ports
@@ -512,7 +512,7 @@ qwc:
         uwsgi:
           image:
             repository: sourcepole/qwc-permalink-service
-            tag: v2023.0-lts
+            tag: v2023.2-lts
             sha: ''
           ports:
             <<: *common-ports
