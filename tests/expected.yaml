@@ -1038,7 +1038,7 @@ spec:
         - name: uwsgi
           securityContext:
             {}
-          image: "sourcepole/qwc-data-service:v2023.5-lts"
+          image: "sourcepole/qwc-data-service:v2024.2-lts"
           imagePullPolicy: IfNotPresent
           env:
             - name: "JWT_COOKIE_CSRF_PROTECT"
