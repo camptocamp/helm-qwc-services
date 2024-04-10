@@ -786,7 +786,7 @@ spec:
         - name: uwsgi
           securityContext:
             {}
-          image: "sourcepole/qwc-admin-gui:v2022.09.15"
+          image: "sourcepole/qwc-admin-gui:v2024.03.28"
           imagePullPolicy: IfNotPresent
           env:
             - name: "DEFAULT_LOCALE"
