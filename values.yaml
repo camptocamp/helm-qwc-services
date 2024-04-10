@@ -414,7 +414,7 @@ qwc:
         uwsgi:
           image:
             repository: sourcepole/qwc-legend-service
-            tag: v2023.3-lts
+            tag: v2024.1-lts
             sha: ''
           ports:
             <<: *common-ports
