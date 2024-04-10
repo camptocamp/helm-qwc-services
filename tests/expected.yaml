@@ -717,7 +717,7 @@ spec:
         - name: qgis
           securityContext:
             {}
-          image: "sourcepole/qwc-qgis-server:3.28-plugins"
+          image: "sourcepole/qwc-qgis-server:3.34-plugins"
           imagePullPolicy: IfNotPresent
           env:
             - name: "JWT_COOKIE_CSRF_PROTECT"
@@ -786,7 +786,7 @@ spec:
         - name: uwsgi
           securityContext:
             {}
-          image: "sourcepole/qwc-admin-gui:v2022.03.19"
+          image: "sourcepole/qwc-admin-gui:v2022.09.15"
           imagePullPolicy: IfNotPresent
           env:
             - name: "DEFAULT_LOCALE"
@@ -869,7 +869,7 @@ spec:
         - name: uwsgi
           securityContext:
             {}
-          image: "sourcepole/qwc-db-auth:v2023.0-lts"
+          image: "sourcepole/qwc-db-auth:v2023.2-lts"
           imagePullPolicy: IfNotPresent
           env:
             - name: "JWT_COOKIE_CSRF_PROTECT"
@@ -948,7 +948,7 @@ spec:
         - name: uwsgi
           securityContext:
             {}
-          image: "sourcepole/qwc-config-generator:v2023.7-lts"
+          image: "sourcepole/qwc-config-generator:v2023.12-lts"
           imagePullPolicy: IfNotPresent
           env:
             - name: "INPUT_CONFIG_PATH"
@@ -1038,7 +1038,7 @@ spec:
         - name: uwsgi
           securityContext:
             {}
-          image: "sourcepole/qwc-data-service:v2023.1-lts"
+          image: "sourcepole/qwc-data-service:v2023.5-lts"
           imagePullPolicy: IfNotPresent
           env:
             - name: "JWT_COOKIE_CSRF_PROTECT"
@@ -1117,7 +1117,7 @@ spec:
         - name: uwsgi
           securityContext:
             {}
-          image: "sourcepole/qwc-document-service:v2023.0-lts"
+          image: "sourcepole/qwc-document-service:v2023.2-lts"
           imagePullPolicy: IfNotPresent
           env:
             - name: "JWT_COOKIE_CSRF_PROTECT"
@@ -1192,7 +1192,7 @@ spec:
         - name: uwsgi
           securityContext:
             {}
-          image: "sourcepole/qwc-elevation-service:v2023.0-lts"
+          image: "sourcepole/qwc-elevation-service:v2023.2-lts"
           imagePullPolicy: IfNotPresent
           env:
             - name: "JWT_COOKIE_CSRF_PROTECT"
@@ -1265,7 +1265,7 @@ spec:
         - name: uwsgi
           securityContext:
             {}
-          image: "sourcepole/qwc-feature-info-service:v2023.0-lts"
+          image: "sourcepole/qwc-feature-info-service:v2023.2-lts"
           imagePullPolicy: IfNotPresent
           env:
             - name: "JWT_COOKIE_CSRF_PROTECT"
@@ -1340,7 +1340,7 @@ spec:
         - name: uwsgi
           securityContext:
             {}
-          image: "sourcepole/qwc-fulltext-search-service:v2023.0-lts"
+          image: "sourcepole/qwc-fulltext-search-service:v2023.2-lts"
           imagePullPolicy: IfNotPresent
           env:
             - name: "JWT_COOKIE_CSRF_PROTECT"
@@ -1415,7 +1415,7 @@ spec:
         - name: uwsgi
           securityContext:
             {}
-          image: "sourcepole/qwc-legend-service:v2023.0-lts"
+          image: "sourcepole/qwc-legend-service:v2023.3-lts"
           imagePullPolicy: IfNotPresent
           env:
             - name: "JWT_COOKIE_CSRF_PROTECT"
@@ -1494,7 +1494,7 @@ spec:
         - name: uwsgi
           securityContext:
             {}
-          image: "sourcepole/qwc-map-viewer-demo:v2023.4-lts"
+          image: "sourcepole/qwc-map-viewer-demo:v2023.12-lts"
           imagePullPolicy: IfNotPresent
           env:
             - name: "JWT_COOKIE_CSRF_PROTECT"
@@ -1567,7 +1567,7 @@ spec:
         - name: uwsgi
           securityContext:
             {}
-          image: "sourcepole/qwc-mapinfo-service:v2023.0-lts"
+          image: "sourcepole/qwc-mapinfo-service:v2023.10-lts"
           imagePullPolicy: IfNotPresent
           env:
             - name: "JWT_COOKIE_CSRF_PROTECT"
@@ -1642,7 +1642,7 @@ spec:
         - name: uwsgi
           securityContext:
             {}
-          image: "sourcepole/qwc-ogc-service:v2023.0-lts"
+          image: "sourcepole/qwc-ogc-service:v2023.2-lts"
           imagePullPolicy: IfNotPresent
           env:
             - name: "JWT_COOKIE_CSRF_PROTECT"
@@ -1717,7 +1717,7 @@ spec:
         - name: uwsgi
           securityContext:
             {}
-          image: "sourcepole/qwc-permalink-service:v2023.0-lts"
+          image: "sourcepole/qwc-permalink-service:v2023.2-lts"
           imagePullPolicy: IfNotPresent
           env:
             - name: "JWT_COOKIE_CSRF_PROTECT"
@@ -1792,7 +1792,7 @@ spec:
         - name: uwsgi
           securityContext:
             {}
-          image: "sourcepole/qwc-print-service:v2023.0-lts"
+          image: "sourcepole/qwc-print-service:v2023.2-lts"
           imagePullPolicy: IfNotPresent
           env:
             - name: "JWT_COOKIE_CSRF_PROTECT"
