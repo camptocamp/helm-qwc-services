@@ -948,7 +948,7 @@ spec:
         - name: uwsgi
           securityContext:
             {}
-          image: "sourcepole/qwc-config-generator:v2023.12-lts"
+          image: "sourcepole/qwc-config-generator:v2024.2-lts"
           imagePullPolicy: IfNotPresent
           env:
             - name: "INPUT_CONFIG_PATH"
