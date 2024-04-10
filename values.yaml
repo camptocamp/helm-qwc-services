@@ -466,7 +466,7 @@ qwc:
         uwsgi:
           image:
             repository: sourcepole/qwc-map-viewer-demo
-            tag: v2023.12-lts
+            tag: v2024.9-lts
             sha: ''
           ports:
             <<: *common-ports
