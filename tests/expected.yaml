@@ -1717,7 +1717,7 @@ spec:
         - name: uwsgi
           securityContext:
             {}
-          image: "sourcepole/qwc-permalink-service:v2023.2-lts"
+          image: "sourcepole/qwc-permalink-service:v2024.1-lts"
           imagePullPolicy: IfNotPresent
           env:
             - name: "JWT_COOKIE_CSRF_PROTECT"
