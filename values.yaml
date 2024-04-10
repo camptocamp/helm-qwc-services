@@ -320,7 +320,7 @@ qwc:
         uwsgi:
           image:
             repository: sourcepole/qwc-elevation-service
-            tag: v2023.2-lts
+            tag: v2024.1-lts
             sha: ''
           ports:
             <<: *common-ports
