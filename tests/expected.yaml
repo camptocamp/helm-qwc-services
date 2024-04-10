@@ -1867,7 +1867,7 @@ spec:
         - name: solr
           securityContext:
             {}
-          image: "solr:8.11.3-slim"
+          image: "solr:9.5.0-slim"
           imagePullPolicy: IfNotPresent
           env:
             - name: "JWT_COOKIE_CSRF_PROTECT"
