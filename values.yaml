@@ -541,7 +541,7 @@ qwc:
         solr:
           image:
             repository: solr
-            tag: 8.11.1-slim
+            tag: 8.11.3-slim
             sha: ''
           ports:
             http:

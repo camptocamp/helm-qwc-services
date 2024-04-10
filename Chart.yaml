@@ -7,8 +7,8 @@ dependencies:
   - name: custom-pod
     repository: https://camptocamp.github.io/helm-custom-pod/
     alias: qgis
-    version: 0.6.1
+    version: 0.6.2
   - name: custom-pod
     repository: https://camptocamp.github.io/helm-custom-pod/
     alias: qwc
-    version: 0.6.1
+    version: 0.6.2
