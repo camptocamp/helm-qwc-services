@@ -5,6 +5,9 @@ kind: PodDisruptionBudget
 metadata:
   name: qwc-qgis-qgis-server
   labels:
+    helm.sh/chart: qgis
+    app.kubernetes.io/version: "1.0"
+    app.kubernetes.io/managed-by: Helm
     app.kubernetes.io/name: qgis
     app.kubernetes.io/instance: qwc
     app.kubernetes.io/component: qgis-server
@@ -22,6 +25,9 @@ kind: PodDisruptionBudget
 metadata:
   name: qwc-qwc-admin-gui
   labels:
+    helm.sh/chart: qwc
+    app.kubernetes.io/version: "1.0"
+    app.kubernetes.io/managed-by: Helm
     app.kubernetes.io/name: qwc
     app.kubernetes.io/instance: qwc
     app.kubernetes.io/component: admin-gui
@@ -39,6 +45,9 @@ kind: PodDisruptionBudget
 metadata:
   name: qwc-qwc-auth-service
   labels:
+    helm.sh/chart: qwc
+    app.kubernetes.io/version: "1.0"
+    app.kubernetes.io/managed-by: Helm
     app.kubernetes.io/name: qwc
     app.kubernetes.io/instance: qwc
     app.kubernetes.io/component: auth-service
@@ -56,6 +65,9 @@ kind: PodDisruptionBudget
 metadata:
   name: qwc-qwc-config-service
   labels:
+    helm.sh/chart: qwc
+    app.kubernetes.io/version: "1.0"
+    app.kubernetes.io/managed-by: Helm
     app.kubernetes.io/name: qwc
     app.kubernetes.io/instance: qwc
     app.kubernetes.io/component: config-service
@@ -73,6 +85,9 @@ kind: PodDisruptionBudget
 metadata:
   name: qwc-qwc-data-service
   labels:
+    helm.sh/chart: qwc
+    app.kubernetes.io/version: "1.0"
+    app.kubernetes.io/managed-by: Helm
     app.kubernetes.io/name: qwc
     app.kubernetes.io/instance: qwc
     app.kubernetes.io/component: data-service
@@ -90,6 +105,9 @@ kind: PodDisruptionBudget
 metadata:
   name: qwc-qwc-document-service
   labels:
+    helm.sh/chart: qwc
+    app.kubernetes.io/version: "1.0"
+    app.kubernetes.io/managed-by: Helm
     app.kubernetes.io/name: qwc
     app.kubernetes.io/instance: qwc
     app.kubernetes.io/component: document-service
@@ -107,6 +125,9 @@ kind: PodDisruptionBudget
 metadata:
   name: qwc-qwc-elevation-service
   labels:
+    helm.sh/chart: qwc
+    app.kubernetes.io/version: "1.0"
+    app.kubernetes.io/managed-by: Helm
     app.kubernetes.io/name: qwc
     app.kubernetes.io/instance: qwc
     app.kubernetes.io/component: elevation-service
@@ -124,6 +145,9 @@ kind: PodDisruptionBudget
 metadata:
   name: qwc-qwc-feature-info-service
   labels:
+    helm.sh/chart: qwc
+    app.kubernetes.io/version: "1.0"
+    app.kubernetes.io/managed-by: Helm
     app.kubernetes.io/name: qwc
     app.kubernetes.io/instance: qwc
     app.kubernetes.io/component: feature-info-service
@@ -141,6 +165,9 @@ kind: PodDisruptionBudget
 metadata:
   name: qwc-qwc-fulltext-search-service
   labels:
+    helm.sh/chart: qwc
+    app.kubernetes.io/version: "1.0"
+    app.kubernetes.io/managed-by: Helm
     app.kubernetes.io/name: qwc
     app.kubernetes.io/instance: qwc
     app.kubernetes.io/component: fulltext-search-service
@@ -158,6 +185,9 @@ kind: PodDisruptionBudget
 metadata:
   name: qwc-qwc-legend-service
   labels:
+    helm.sh/chart: qwc
+    app.kubernetes.io/version: "1.0"
+    app.kubernetes.io/managed-by: Helm
     app.kubernetes.io/name: qwc
     app.kubernetes.io/instance: qwc
     app.kubernetes.io/component: legend-service
@@ -175,6 +205,9 @@ kind: PodDisruptionBudget
 metadata:
   name: qwc-qwc-map-viewer
   labels:
+    helm.sh/chart: qwc
+    app.kubernetes.io/version: "1.0"
+    app.kubernetes.io/managed-by: Helm
     app.kubernetes.io/name: qwc
     app.kubernetes.io/instance: qwc
     app.kubernetes.io/component: map-viewer
@@ -192,6 +225,9 @@ kind: PodDisruptionBudget
 metadata:
   name: qwc-qwc-mapinfo-service
   labels:
+    helm.sh/chart: qwc
+    app.kubernetes.io/version: "1.0"
+    app.kubernetes.io/managed-by: Helm
     app.kubernetes.io/name: qwc
     app.kubernetes.io/instance: qwc
     app.kubernetes.io/component: mapinfo-service
@@ -209,6 +245,9 @@ kind: PodDisruptionBudget
 metadata:
   name: qwc-qwc-ogc-service
   labels:
+    helm.sh/chart: qwc
+    app.kubernetes.io/version: "1.0"
+    app.kubernetes.io/managed-by: Helm
     app.kubernetes.io/name: qwc
     app.kubernetes.io/instance: qwc
     app.kubernetes.io/component: ogc-service
@@ -226,6 +265,9 @@ kind: PodDisruptionBudget
 metadata:
   name: qwc-qwc-permalink-service
   labels:
+    helm.sh/chart: qwc
+    app.kubernetes.io/version: "1.0"
+    app.kubernetes.io/managed-by: Helm
     app.kubernetes.io/name: qwc
     app.kubernetes.io/instance: qwc
     app.kubernetes.io/component: permalink-service
@@ -243,6 +285,9 @@ kind: PodDisruptionBudget
 metadata:
   name: qwc-qwc-print-service
   labels:
+    helm.sh/chart: qwc
+    app.kubernetes.io/version: "1.0"
+    app.kubernetes.io/managed-by: Helm
     app.kubernetes.io/name: qwc
     app.kubernetes.io/instance: qwc
     app.kubernetes.io/component: print-service
@@ -260,6 +305,9 @@ kind: PodDisruptionBudget
 metadata:
   name: qwc-qwc-solr
   labels:
+    helm.sh/chart: qwc
+    app.kubernetes.io/version: "1.0"
+    app.kubernetes.io/managed-by: Helm
     app.kubernetes.io/name: qwc
     app.kubernetes.io/instance: qwc
     app.kubernetes.io/component: solr
@@ -270,6 +318,38 @@ spec:
       app.kubernetes.io/name: qwc
       app.kubernetes.io/instance: qwc
       app.kubernetes.io/component: solr
+---
+# Source: qwc/charts/qgis/templates/secret-docker-registry.yaml
+apiVersion: v1
+kind: Secret
+metadata:
+  name: qwc-qgis-dockerregistry
+  labels:
+    helm.sh/chart: qgis
+    app.kubernetes.io/version: "1.0"
+    app.kubernetes.io/managed-by: Helm
+    app.kubernetes.io/name: qgis
+    app.kubernetes.io/instance: qwc
+    app.kubernetes.io/component: dockerregistry
+type: kubernetes.io/dockerconfigjson
+data:
+  .dockerconfigjson: ewogICJhdXRocyI6IHsKICAgICJmaXgtZW5kLWNvbW1hIjogeyJhdXRoIjogIiJ9CiAgfQp9
+---
+# Source: qwc/charts/qwc/templates/secret-docker-registry.yaml
+apiVersion: v1
+kind: Secret
+metadata:
+  name: qwc-qwc-dockerregistry
+  labels:
+    helm.sh/chart: qwc
+    app.kubernetes.io/version: "1.0"
+    app.kubernetes.io/managed-by: Helm
+    app.kubernetes.io/name: qwc
+    app.kubernetes.io/instance: qwc
+    app.kubernetes.io/component: dockerregistry
+type: kubernetes.io/dockerconfigjson
+data:
+  .dockerconfigjson: ewogICJhdXRocyI6IHsKICAgICJmaXgtZW5kLWNvbW1hIjogeyJhdXRoIjogIiJ9CiAgfQp9
 ---
 # Source: qwc/templates/jwt-secret.yaml
 apiVersion: v1
@@ -708,16 +788,16 @@ spec:
         app.kubernetes.io/instance: qwc
         app.kubernetes.io/component: qgis-server
     spec:
+      imagePullSecrets:
+        - name: qwc-qgis-dockerregistry
       serviceAccountName: default
       securityContext:
         {}
-      affinity:
-        null
       containers:
         - name: qgis
           securityContext:
             {}
-          image: "sourcepole/qwc-qgis-server:3.34-plugins"
+          image: "sourcepole/qwc-qgis-server:3.38-plugins"
           imagePullPolicy: IfNotPresent
           env:
             - name: "JWT_COOKIE_CSRF_PROTECT"
@@ -728,8 +808,6 @@ spec:
                   name: "jwt-key-secret"
                   key: "JWT_SECRET_KEY"
           terminationMessagePolicy: FallbackToLogsOnError
-          resources:
-            null
           volumeMounts:
             - mountPath: /data
               name: v-qwc-data
@@ -740,13 +818,14 @@ spec:
             - name: http
               containerPort: 80
 
+
       volumes:
         - name: pg-service-conf-secret
           secret:
+            secretName: pg-service-conf-secret
             items:
             - key: pg_service_conf
               path: pg_service.conf
-            secretName: pg-service-conf-secret
 ---
 # Source: qwc/charts/qwc/templates/deployment.yaml
 apiVersion: apps/v1
@@ -777,16 +856,16 @@ spec:
         app.kubernetes.io/instance: qwc
         app.kubernetes.io/component: admin-gui
     spec:
+      imagePullSecrets:
+        - name: qwc-qwc-dockerregistry
       serviceAccountName: default
       securityContext:
         {}
-      affinity:
-        null
       containers:
         - name: uwsgi
           securityContext:
             {}
-          image: "sourcepole/qwc-admin-gui:v2022.09.15"
+          image: "sourcepole/qwc-admin-gui:v2024.5-lts"
           imagePullPolicy: IfNotPresent
           env:
             - name: "DEFAULT_LOCALE"
@@ -794,7 +873,7 @@ spec:
             - name: "GROUP_REGISTRATION_ENABLED"
               value: "False"
             - name: "IDLE_TIMEOUT"
-              value: 600
+              value: "600"
             - name: "JWT_COOKIE_CSRF_PROTECT"
               value: "False"
             - name: "JWT_SECRET_KEY"
@@ -807,8 +886,6 @@ spec:
             - name: "MAIL_SUPPRESS_SEND"
               value: "True"
           terminationMessagePolicy: FallbackToLogsOnError
-          resources:
-            null
           volumeMounts:
             - mountPath: /srv/pg_service.conf
               name: pg-service-conf-secret
@@ -823,13 +900,14 @@ spec:
               containerPort: 9090
               hostIP: 127.0.0.1
 
+
       volumes:
         - name: pg-service-conf-secret
           secret:
+            secretName: pg-service-conf-secret
             items:
             - key: pg_service_conf
               path: pg_service.conf
-            secretName: pg-service-conf-secret
 ---
 # Source: qwc/charts/qwc/templates/deployment.yaml
 apiVersion: apps/v1
@@ -860,16 +938,16 @@ spec:
         app.kubernetes.io/instance: qwc
         app.kubernetes.io/component: auth-service
     spec:
+      imagePullSecrets:
+        - name: qwc-qwc-dockerregistry
       serviceAccountName: default
       securityContext:
         {}
-      affinity:
-        null
       containers:
         - name: uwsgi
           securityContext:
             {}
-          image: "sourcepole/qwc-db-auth:v2023.2-lts"
+          image: "sourcepole/qwc-db-auth:v2024.4-lts"
           imagePullPolicy: IfNotPresent
           env:
             - name: "JWT_COOKIE_CSRF_PROTECT"
@@ -886,8 +964,6 @@ spec:
             - name: "SERVICE_MOUNTPOINT"
               value: /auth
           terminationMessagePolicy: FallbackToLogsOnError
-          resources:
-            null
           volumeMounts:
             - mountPath: /srv/pg_service.conf
               name: pg-service-conf-secret
@@ -902,13 +978,14 @@ spec:
               containerPort: 9090
               hostIP: 127.0.0.1
 
+
       volumes:
         - name: pg-service-conf-secret
           secret:
+            secretName: pg-service-conf-secret
             items:
             - key: pg_service_conf
               path: pg_service.conf
-            secretName: pg-service-conf-secret
 ---
 # Source: qwc/charts/qwc/templates/deployment.yaml
 apiVersion: apps/v1
@@ -939,16 +1016,16 @@ spec:
         app.kubernetes.io/instance: qwc
         app.kubernetes.io/component: config-service
     spec:
+      imagePullSecrets:
+        - name: qwc-qwc-dockerregistry
       serviceAccountName: default
       securityContext:
         {}
-      affinity:
-        null
       containers:
         - name: uwsgi
           securityContext:
             {}
-          image: "sourcepole/qwc-config-generator:v2023.12-lts"
+          image: "sourcepole/qwc-config-generator:v2024.5-lts"
           imagePullPolicy: IfNotPresent
           env:
             - name: "INPUT_CONFIG_PATH"
@@ -963,8 +1040,6 @@ spec:
             - name: "OUTPUT_CONFIG_PATH"
               value: /srv/qwc_service/config-out
           terminationMessagePolicy: FallbackToLogsOnError
-          resources:
-            null
           volumeMounts:
             - mountPath: /data
               name: v-qwc-data
@@ -992,13 +1067,14 @@ spec:
               containerPort: 9090
               hostIP: 127.0.0.1
 
+
       volumes:
         - name: pg-service-conf-secret
           secret:
+            secretName: pg-service-conf-secret
             items:
             - key: pg_service_conf
               path: pg_service.conf
-            secretName: pg-service-conf-secret
 ---
 # Source: qwc/charts/qwc/templates/deployment.yaml
 apiVersion: apps/v1
@@ -1029,16 +1105,16 @@ spec:
         app.kubernetes.io/instance: qwc
         app.kubernetes.io/component: data-service
     spec:
+      imagePullSecrets:
+        - name: qwc-qwc-dockerregistry
       serviceAccountName: default
       securityContext:
         {}
-      affinity:
-        null
       containers:
         - name: uwsgi
           securityContext:
             {}
-          image: "sourcepole/qwc-data-service:v2023.5-lts"
+          image: "sourcepole/qwc-data-service:v2024.4-lts"
           imagePullPolicy: IfNotPresent
           env:
             - name: "JWT_COOKIE_CSRF_PROTECT"
@@ -1051,8 +1127,6 @@ spec:
             - name: "SERVICE_MOUNTPOINT"
               value: /api/v1/data
           terminationMessagePolicy: FallbackToLogsOnError
-          resources:
-            null
           volumeMounts:
             - mountPath: /attachments
               name: v-qwc-data
@@ -1071,13 +1145,14 @@ spec:
               containerPort: 9090
               hostIP: 127.0.0.1
 
+
       volumes:
         - name: pg-service-conf-secret
           secret:
+            secretName: pg-service-conf-secret
             items:
             - key: pg_service_conf
               path: pg_service.conf
-            secretName: pg-service-conf-secret
 ---
 # Source: qwc/charts/qwc/templates/deployment.yaml
 apiVersion: apps/v1
@@ -1108,16 +1183,16 @@ spec:
         app.kubernetes.io/instance: qwc
         app.kubernetes.io/component: document-service
     spec:
+      imagePullSecrets:
+        - name: qwc-qwc-dockerregistry
       serviceAccountName: default
       securityContext:
         {}
-      affinity:
-        null
       containers:
         - name: uwsgi
           securityContext:
             {}
-          image: "sourcepole/qwc-document-service:v2023.2-lts"
+          image: "sourcepole/qwc-document-service:v2024.2-lts"
           imagePullPolicy: IfNotPresent
           env:
             - name: "JWT_COOKIE_CSRF_PROTECT"
@@ -1130,8 +1205,6 @@ spec:
             - name: "SERVICE_MOUNTPOINT"
               value: /api/v1/document
           terminationMessagePolicy: FallbackToLogsOnError
-          resources:
-            null
           volumeMounts:
             - mountPath: /srv/pg_service.conf
               name: pg-service-conf-secret
@@ -1146,13 +1219,14 @@ spec:
               containerPort: 9090
               hostIP: 127.0.0.1
 
+
       volumes:
         - name: pg-service-conf-secret
           secret:
+            secretName: pg-service-conf-secret
             items:
             - key: pg_service_conf
               path: pg_service.conf
-            secretName: pg-service-conf-secret
 ---
 # Source: qwc/charts/qwc/templates/deployment.yaml
 apiVersion: apps/v1
@@ -1183,16 +1257,16 @@ spec:
         app.kubernetes.io/instance: qwc
         app.kubernetes.io/component: elevation-service
     spec:
+      imagePullSecrets:
+        - name: qwc-qwc-dockerregistry
       serviceAccountName: default
       securityContext:
         {}
-      affinity:
-        null
       containers:
         - name: uwsgi
           securityContext:
             {}
-          image: "sourcepole/qwc-elevation-service:v2023.2-lts"
+          image: "sourcepole/qwc-elevation-service:v2024.2-lts"
           imagePullPolicy: IfNotPresent
           env:
             - name: "JWT_COOKIE_CSRF_PROTECT"
@@ -1203,8 +1277,6 @@ spec:
                   name: "jwt-key-secret"
                   key: "JWT_SECRET_KEY"
           terminationMessagePolicy: FallbackToLogsOnError
-          resources:
-            null
           volumeMounts:
             - mountPath: /srv/pg_service.conf
               name: pg-service-conf-secret
@@ -1219,13 +1291,14 @@ spec:
               containerPort: 9090
               hostIP: 127.0.0.1
 
+
       volumes:
         - name: pg-service-conf-secret
           secret:
+            secretName: pg-service-conf-secret
             items:
             - key: pg_service_conf
               path: pg_service.conf
-            secretName: pg-service-conf-secret
 ---
 # Source: qwc/charts/qwc/templates/deployment.yaml
 apiVersion: apps/v1
@@ -1256,16 +1329,16 @@ spec:
         app.kubernetes.io/instance: qwc
         app.kubernetes.io/component: feature-info-service
     spec:
+      imagePullSecrets:
+        - name: qwc-qwc-dockerregistry
       serviceAccountName: default
       securityContext:
         {}
-      affinity:
-        null
       containers:
         - name: uwsgi
           securityContext:
             {}
-          image: "sourcepole/qwc-feature-info-service:v2023.2-lts"
+          image: "sourcepole/qwc-feature-info-service:v2024.08.28"
           imagePullPolicy: IfNotPresent
           env:
             - name: "JWT_COOKIE_CSRF_PROTECT"
@@ -1278,8 +1351,6 @@ spec:
             - name: "SERVICE_MOUNTPOINT"
               value: /api/v1/featureinfo
           terminationMessagePolicy: FallbackToLogsOnError
-          resources:
-            null
           volumeMounts:
             - mountPath: /srv/pg_service.conf
               name: pg-service-conf-secret
@@ -1294,13 +1365,14 @@ spec:
               containerPort: 9090
               hostIP: 127.0.0.1
 
+
       volumes:
         - name: pg-service-conf-secret
           secret:
+            secretName: pg-service-conf-secret
             items:
             - key: pg_service_conf
               path: pg_service.conf
-            secretName: pg-service-conf-secret
 ---
 # Source: qwc/charts/qwc/templates/deployment.yaml
 apiVersion: apps/v1
@@ -1331,16 +1403,16 @@ spec:
         app.kubernetes.io/instance: qwc
         app.kubernetes.io/component: fulltext-search-service
     spec:
+      imagePullSecrets:
+        - name: qwc-qwc-dockerregistry
       serviceAccountName: default
       securityContext:
         {}
-      affinity:
-        null
       containers:
         - name: uwsgi
           securityContext:
             {}
-          image: "sourcepole/qwc-fulltext-search-service:v2023.2-lts"
+          image: "sourcepole/qwc-fulltext-search-service:v2024.3-lts"
           imagePullPolicy: IfNotPresent
           env:
             - name: "JWT_COOKIE_CSRF_PROTECT"
@@ -1353,8 +1425,6 @@ spec:
             - name: "SERVICE_MOUNTPOINT"
               value: /api/v2/search
           terminationMessagePolicy: FallbackToLogsOnError
-          resources:
-            null
           volumeMounts:
             - mountPath: /srv/pg_service.conf
               name: pg-service-conf-secret
@@ -1369,13 +1439,14 @@ spec:
               containerPort: 9090
               hostIP: 127.0.0.1
 
+
       volumes:
         - name: pg-service-conf-secret
           secret:
+            secretName: pg-service-conf-secret
             items:
             - key: pg_service_conf
               path: pg_service.conf
-            secretName: pg-service-conf-secret
 ---
 # Source: qwc/charts/qwc/templates/deployment.yaml
 apiVersion: apps/v1
@@ -1406,16 +1477,16 @@ spec:
         app.kubernetes.io/instance: qwc
         app.kubernetes.io/component: legend-service
     spec:
+      imagePullSecrets:
+        - name: qwc-qwc-dockerregistry
       serviceAccountName: default
       securityContext:
         {}
-      affinity:
-        null
       containers:
         - name: uwsgi
           securityContext:
             {}
-          image: "sourcepole/qwc-legend-service:v2023.3-lts"
+          image: "sourcepole/qwc-legend-service:v2024.2-lts"
           imagePullPolicy: IfNotPresent
           env:
             - name: "JWT_COOKIE_CSRF_PROTECT"
@@ -1428,8 +1499,6 @@ spec:
             - name: "SERVICE_MOUNTPOINT"
               value: /api/v1/legend
           terminationMessagePolicy: FallbackToLogsOnError
-          resources:
-            null
           volumeMounts:
             - mountPath: /legends
               name: v-qwc-data
@@ -1448,13 +1517,14 @@ spec:
               containerPort: 9090
               hostIP: 127.0.0.1
 
+
       volumes:
         - name: pg-service-conf-secret
           secret:
+            secretName: pg-service-conf-secret
             items:
             - key: pg_service_conf
               path: pg_service.conf
-            secretName: pg-service-conf-secret
 ---
 # Source: qwc/charts/qwc/templates/deployment.yaml
 apiVersion: apps/v1
@@ -1485,16 +1555,16 @@ spec:
         app.kubernetes.io/instance: qwc
         app.kubernetes.io/component: map-viewer
     spec:
+      imagePullSecrets:
+        - name: qwc-qwc-dockerregistry
       serviceAccountName: default
       securityContext:
         {}
-      affinity:
-        null
       containers:
         - name: uwsgi
           securityContext:
             {}
-          image: "sourcepole/qwc-map-viewer-demo:v2023.12-lts"
+          image: "sourcepole/qwc-map-viewer-demo:v2024.16-lts"
           imagePullPolicy: IfNotPresent
           env:
             - name: "JWT_COOKIE_CSRF_PROTECT"
@@ -1505,8 +1575,6 @@ spec:
                   name: "jwt-key-secret"
                   key: "JWT_SECRET_KEY"
           terminationMessagePolicy: FallbackToLogsOnError
-          resources:
-            null
           volumeMounts:
             - mountPath: /srv/pg_service.conf
               name: pg-service-conf-secret
@@ -1521,13 +1589,14 @@ spec:
               containerPort: 9090
               hostIP: 127.0.0.1
 
+
       volumes:
         - name: pg-service-conf-secret
           secret:
+            secretName: pg-service-conf-secret
             items:
             - key: pg_service_conf
               path: pg_service.conf
-            secretName: pg-service-conf-secret
 ---
 # Source: qwc/charts/qwc/templates/deployment.yaml
 apiVersion: apps/v1
@@ -1558,16 +1627,16 @@ spec:
         app.kubernetes.io/instance: qwc
         app.kubernetes.io/component: mapinfo-service
     spec:
+      imagePullSecrets:
+        - name: qwc-qwc-dockerregistry
       serviceAccountName: default
       securityContext:
         {}
-      affinity:
-        null
       containers:
         - name: uwsgi
           securityContext:
             {}
-          image: "sourcepole/qwc-mapinfo-service:v2023.10-lts"
+          image: "sourcepole/qwc-mapinfo-service:v2024.4-lts"
           imagePullPolicy: IfNotPresent
           env:
             - name: "JWT_COOKIE_CSRF_PROTECT"
@@ -1580,8 +1649,6 @@ spec:
             - name: "SERVICE_MOUNTPOINT"
               value: /api/v1/mapinfo
           terminationMessagePolicy: FallbackToLogsOnError
-          resources:
-            null
           volumeMounts:
             - mountPath: /srv/pg_service.conf
               name: pg-service-conf-secret
@@ -1596,13 +1663,14 @@ spec:
               containerPort: 9090
               hostIP: 127.0.0.1
 
+
       volumes:
         - name: pg-service-conf-secret
           secret:
+            secretName: pg-service-conf-secret
             items:
             - key: pg_service_conf
               path: pg_service.conf
-            secretName: pg-service-conf-secret
 ---
 # Source: qwc/charts/qwc/templates/deployment.yaml
 apiVersion: apps/v1
@@ -1633,16 +1701,16 @@ spec:
         app.kubernetes.io/instance: qwc
         app.kubernetes.io/component: ogc-service
     spec:
+      imagePullSecrets:
+        - name: qwc-qwc-dockerregistry
       serviceAccountName: default
       securityContext:
         {}
-      affinity:
-        null
       containers:
         - name: uwsgi
           securityContext:
             {}
-          image: "sourcepole/qwc-ogc-service:v2023.2-lts"
+          image: "sourcepole/qwc-ogc-service:v2024.3-lts"
           imagePullPolicy: IfNotPresent
           env:
             - name: "JWT_COOKIE_CSRF_PROTECT"
@@ -1655,8 +1723,6 @@ spec:
             - name: "SERVICE_MOUNTPOINT"
               value: /ows
           terminationMessagePolicy: FallbackToLogsOnError
-          resources:
-            null
           volumeMounts:
             - mountPath: /srv/pg_service.conf
               name: pg-service-conf-secret
@@ -1671,13 +1737,14 @@ spec:
               containerPort: 9090
               hostIP: 127.0.0.1
 
+
       volumes:
         - name: pg-service-conf-secret
           secret:
+            secretName: pg-service-conf-secret
             items:
             - key: pg_service_conf
               path: pg_service.conf
-            secretName: pg-service-conf-secret
 ---
 # Source: qwc/charts/qwc/templates/deployment.yaml
 apiVersion: apps/v1
@@ -1708,16 +1775,16 @@ spec:
         app.kubernetes.io/instance: qwc
         app.kubernetes.io/component: permalink-service
     spec:
+      imagePullSecrets:
+        - name: qwc-qwc-dockerregistry
       serviceAccountName: default
       securityContext:
         {}
-      affinity:
-        null
       containers:
         - name: uwsgi
           securityContext:
             {}
-          image: "sourcepole/qwc-permalink-service:v2023.2-lts"
+          image: "sourcepole/qwc-permalink-service:v2024.4-lts"
           imagePullPolicy: IfNotPresent
           env:
             - name: "JWT_COOKIE_CSRF_PROTECT"
@@ -1730,8 +1797,6 @@ spec:
             - name: "SERVICE_MOUNTPOINT"
               value: /api/v1/permalink
           terminationMessagePolicy: FallbackToLogsOnError
-          resources:
-            null
           volumeMounts:
             - mountPath: /srv/pg_service.conf
               name: pg-service-conf-secret
@@ -1746,13 +1811,14 @@ spec:
               containerPort: 9090
               hostIP: 127.0.0.1
 
+
       volumes:
         - name: pg-service-conf-secret
           secret:
+            secretName: pg-service-conf-secret
             items:
             - key: pg_service_conf
               path: pg_service.conf
-            secretName: pg-service-conf-secret
 ---
 # Source: qwc/charts/qwc/templates/deployment.yaml
 apiVersion: apps/v1
@@ -1783,16 +1849,16 @@ spec:
         app.kubernetes.io/instance: qwc
         app.kubernetes.io/component: print-service
     spec:
+      imagePullSecrets:
+        - name: qwc-qwc-dockerregistry
       serviceAccountName: default
       securityContext:
         {}
-      affinity:
-        null
       containers:
         - name: uwsgi
           securityContext:
             {}
-          image: "sourcepole/qwc-print-service:v2023.2-lts"
+          image: "sourcepole/qwc-print-service:v2024.2-lts"
           imagePullPolicy: IfNotPresent
           env:
             - name: "JWT_COOKIE_CSRF_PROTECT"
@@ -1805,8 +1871,6 @@ spec:
             - name: "SERVICE_MOUNTPOINT"
               value: /api/v1/print
           terminationMessagePolicy: FallbackToLogsOnError
-          resources:
-            null
           volumeMounts:
             - mountPath: /srv/pg_service.conf
               name: pg-service-conf-secret
@@ -1821,13 +1885,14 @@ spec:
               containerPort: 9090
               hostIP: 127.0.0.1
 
+
       volumes:
         - name: pg-service-conf-secret
           secret:
+            secretName: pg-service-conf-secret
             items:
             - key: pg_service_conf
               path: pg_service.conf
-            secretName: pg-service-conf-secret
 ---
 # Source: qwc/charts/qwc/templates/deployment.yaml
 apiVersion: apps/v1
@@ -1858,16 +1923,16 @@ spec:
         app.kubernetes.io/instance: qwc
         app.kubernetes.io/component: solr
     spec:
+      imagePullSecrets:
+        - name: qwc-qwc-dockerregistry
       serviceAccountName: default
       securityContext:
         {}
-      affinity:
-        null
       containers:
         - name: solr
           securityContext:
             {}
-          image: "solr:8.11.3-slim"
+          image: "solr:8.11-slim"
           imagePullPolicy: IfNotPresent
           env:
             - name: "JWT_COOKIE_CSRF_PROTECT"
@@ -1878,8 +1943,6 @@ spec:
                   name: "jwt-key-secret"
                   key: "JWT_SECRET_KEY"
           terminationMessagePolicy: FallbackToLogsOnError
-          resources:
-            null
           volumeMounts:
             - mountPath: /gdi_conf
               name: v-qwc-data
@@ -1901,10 +1964,11 @@ spec:
               containerPort: 8983
               hostIP: 127.0.0.1
 
+
       volumes:
         - name: pg-service-conf-secret
           secret:
+            secretName: pg-service-conf-secret
             items:
             - key: pg_service_conf
               path: pg_service.conf
-            secretName: pg-service-conf-secret

@@ -48,7 +48,6 @@ env: &common-env
 # Common generic stuff needed
 # from helm-custom-pod dependency
 common-generic-stuff: &common-generic-stuff
-  env: {}
   replicaCount: 1
   initContainers: {}
   nodeSelector: {}
@@ -118,7 +117,7 @@ qgis:
         qgis:
           image:
             repository: sourcepole/qwc-qgis-server
-            tag: 3.34-plugins
+            tag: 3.38-plugins
             sha: ''
           ports:
             http:
@@ -170,7 +169,7 @@ qwc:
         uwsgi:
           image:
             repository: sourcepole/qwc-admin-gui
-            tag: v2022.09.15
+            tag: v2024.5-lts
             sha: ''
           ports:
             <<: *common-ports
@@ -183,7 +182,7 @@ qwc:
             MAIL_SUPPRESS_SEND:
               value: 'True'
             IDLE_TIMEOUT:
-              value: 600
+              value: '600'
             GROUP_REGISTRATION_ENABLED:
               value: 'False'
             DEFAULT_LOCALE:
@@ -202,7 +201,7 @@ qwc:
         uwsgi:
           image:
             repository: sourcepole/qwc-db-auth
-            tag: v2023.2-lts
+            tag: v2024.4-lts
             sha: ''
           ports:
             <<: *common-ports
@@ -230,7 +229,7 @@ qwc:
         uwsgi:
           image:
             repository: sourcepole/qwc-config-generator
-            tag: v2023.12-lts
+            tag: v2024.5-lts
             sha: ''
           ports:
             <<: *common-ports
@@ -269,7 +268,7 @@ qwc:
         uwsgi:
           image:
             repository: sourcepole/qwc-data-service
-            tag: v2023.5-lts
+            tag: v2024.4-lts
             sha: ''
           ports:
             <<: *common-ports
@@ -296,7 +295,7 @@ qwc:
         uwsgi:
           image:
             repository: sourcepole/qwc-document-service
-            tag: v2023.2-lts
+            tag: v2024.2-lts
             sha: ''
           ports:
             <<: *common-ports
@@ -320,7 +319,7 @@ qwc:
         uwsgi:
           image:
             repository: sourcepole/qwc-elevation-service
-            tag: v2023.2-lts
+            tag: v2024.2-lts
             sha: ''
           ports:
             <<: *common-ports
@@ -342,7 +341,7 @@ qwc:
         uwsgi:
           image:
             repository: sourcepole/qwc-feature-info-service
-            tag: v2023.2-lts
+            tag: v2024.08.28
             sha: ''
           ports:
             <<: *common-ports
@@ -366,7 +365,7 @@ qwc:
         uwsgi:
           image:
             repository: sourcepole/qwc-fulltext-search-service
-            tag: v2023.2-lts
+            tag: v2024.3-lts
             sha: ''
           ports:
             <<: *common-ports
@@ -390,7 +389,7 @@ qwc:
         uwsgi:
           image:
             repository: sourcepole/qwc-mapinfo-service
-            tag: v2023.10-lts
+            tag: v2024.4-lts
             sha: ''
           ports:
             <<: *common-ports
@@ -414,7 +413,7 @@ qwc:
         uwsgi:
           image:
             repository: sourcepole/qwc-legend-service
-            tag: v2023.3-lts
+            tag: v2024.2-lts
             sha: ''
           ports:
             <<: *common-ports
@@ -442,7 +441,7 @@ qwc:
         uwsgi:
           image:
             repository: sourcepole/qwc-print-service
-            tag: v2023.2-lts
+            tag: v2024.2-lts
             sha: ''
           ports:
             <<: *common-ports
@@ -466,7 +465,7 @@ qwc:
         uwsgi:
           image:
             repository: sourcepole/qwc-map-viewer-demo
-            tag: v2023.12-lts
+            tag: v2024.16-lts
             sha: ''
           ports:
             <<: *common-ports
@@ -488,7 +487,7 @@ qwc:
         uwsgi:
           image:
             repository: sourcepole/qwc-ogc-service
-            tag: v2023.2-lts
+            tag: v2024.3-lts
             sha: ''
           ports:
             <<: *common-ports
@@ -512,7 +511,7 @@ qwc:
         uwsgi:
           image:
             repository: sourcepole/qwc-permalink-service
-            tag: v2023.2-lts
+            tag: v2024.4-lts
             sha: ''
           ports:
             <<: *common-ports
@@ -541,7 +540,7 @@ qwc:
         solr:
           image:
             repository: solr
-            tag: 8.11.3-slim
+            tag: 8.11-slim
             sha: ''
           ports:
             http:
