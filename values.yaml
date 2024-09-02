@@ -96,6 +96,9 @@ qgis:
     # The name of the service account to use.
     # If not set and create is true, a name is generated using the fullname template
     name: default
+  securityContext:
+    runAsNonRoot: true
+    runAsUser: 33
   services:
     qgis-server:
       enabled: true
@@ -108,7 +111,7 @@ qgis:
         servicePort: 80
         ports:
           - name: http
-            port: 80
+            port: 8080
             protocol: TCP
             targetPort: http
       volumes:
@@ -117,7 +120,7 @@ qgis:
         qgis:
           image:
             repository: sourcepole/qwc-qgis-server
-            tag: '3.38'
+            tag: '3.34'
             sha: ''
           ports:
             http:
@@ -129,6 +132,8 @@ qgis:
               readOnly: true
           env:
             <<: *common-env
+            PORT:
+              value: '8080'
 
 qwc:
   ingress:

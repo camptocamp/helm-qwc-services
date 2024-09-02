@@ -391,7 +391,7 @@ spec:
   type: ClusterIP
   ports:
     - name: http
-      port: 80
+      port: 8080
       protocol: TCP
       targetPort: http
   selector:
@@ -796,8 +796,9 @@ spec:
       containers:
         - name: qgis
           securityContext:
-            {}
-          image: "sourcepole/qwc-qgis-server:3.38"
+            runAsNonRoot: true
+            runAsUser: 33
+          image: "sourcepole/qwc-qgis-server:3.34"
           imagePullPolicy: IfNotPresent
           env:
             - name: "JWT_COOKIE_CSRF_PROTECT"
@@ -807,6 +808,8 @@ spec:
                 secretKeyRef:
                   name: "jwt-key-secret"
                   key: "JWT_SECRET_KEY"
+            - name: "PORT"
+              value: "8080"
           terminationMessagePolicy: FallbackToLogsOnError
           volumeMounts:
             - mountPath: /data
