@@ -87,6 +87,6 @@ repos:
           - .
           - tests/expected.yaml
   - repo: https://github.com/renovatebot/pre-commit-hooks
-    rev: 37.428.1
+    rev: 37.428.3
     hooks:
       - id: renovate-config-validator
