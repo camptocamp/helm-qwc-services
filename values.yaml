@@ -120,7 +120,7 @@ qgis:
         qgis:
           image:
             repository: sourcepole/qwc-qgis-server
-            tag: '3.34'
+            tag: '3.38'
             sha: ''
           ports:
             http:
@@ -174,7 +174,7 @@ qwc:
         uwsgi:
           image:
             repository: sourcepole/qwc-admin-gui
-            tag: v2024.5-lts
+            tag: v2024.6-lts
             sha: ''
           ports:
             <<: *common-ports
@@ -492,7 +492,7 @@ qwc:
         uwsgi:
           image:
             repository: sourcepole/qwc-ogc-service
-            tag: v2024.3-lts
+            tag: v2024.4-lts
             sha: ''
           ports:
             <<: *common-ports
