@@ -798,7 +798,7 @@ spec:
           securityContext:
             runAsNonRoot: true
             runAsUser: 33
-          image: "sourcepole/qwc-qgis-server:3.38"
+          image: "sourcepole/qwc-qgis-server:3.40"
           imagePullPolicy: IfNotPresent
           env:
             - name: "JWT_COOKIE_CSRF_PROTECT"
@@ -1028,7 +1028,7 @@ spec:
         - name: uwsgi
           securityContext:
             {}
-          image: "sourcepole/qwc-config-generator:v2024.5-lts"
+          image: "sourcepole/qwc-config-generator:v2024.6-lts"
           imagePullPolicy: IfNotPresent
           env:
             - name: "INPUT_CONFIG_PATH"
@@ -1117,7 +1117,7 @@ spec:
         - name: uwsgi
           securityContext:
             {}
-          image: "sourcepole/qwc-data-service:v2024.4-lts"
+          image: "sourcepole/qwc-data-service:v2024.5-lts"
           imagePullPolicy: IfNotPresent
           env:
             - name: "JWT_COOKIE_CSRF_PROTECT"
@@ -1415,7 +1415,7 @@ spec:
         - name: uwsgi
           securityContext:
             {}
-          image: "sourcepole/qwc-fulltext-search-service:v2024.3-lts"
+          image: "sourcepole/qwc-fulltext-search-service:v2024.4-lts"
           imagePullPolicy: IfNotPresent
           env:
             - name: "JWT_COOKIE_CSRF_PROTECT"
