@@ -1028,7 +1028,7 @@ spec:
         - name: uwsgi
           securityContext:
             {}
-          image: "sourcepole/qwc-config-generator:v2024.6-lts"
+          image: "sourcepole/qwc-config-generator:v2024.7-lts"
           imagePullPolicy: IfNotPresent
           env:
             - name: "INPUT_CONFIG_PATH"
@@ -1341,7 +1341,7 @@ spec:
         - name: uwsgi
           securityContext:
             {}
-          image: "sourcepole/qwc-feature-info-service:v2024.08.28"
+          image: "sourcepole/qwc-feature-info-service:v2024.11.18"
           imagePullPolicy: IfNotPresent
           env:
             - name: "JWT_COOKIE_CSRF_PROTECT"
@@ -1567,7 +1567,7 @@ spec:
         - name: uwsgi
           securityContext:
             {}
-          image: "sourcepole/qwc-map-viewer-demo:v2024.16-lts"
+          image: "sourcepole/qwc-map-viewer-demo:v2024.18-lts"
           imagePullPolicy: IfNotPresent
           env:
             - name: "JWT_COOKIE_CSRF_PROTECT"
@@ -1713,7 +1713,7 @@ spec:
         - name: uwsgi
           securityContext:
             {}
-          image: "sourcepole/qwc-ogc-service:v2024.4-lts"
+          image: "sourcepole/qwc-ogc-service:v2024.5-lts"
           imagePullPolicy: IfNotPresent
           env:
             - name: "JWT_COOKIE_CSRF_PROTECT"
