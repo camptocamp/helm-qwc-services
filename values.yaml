@@ -234,7 +234,7 @@ qwc:
         uwsgi:
           image:
             repository: sourcepole/qwc-config-generator
-            tag: v2024.6-lts
+            tag: v2024.7-lts
             sha: ''
           ports:
             <<: *common-ports
@@ -346,7 +346,7 @@ qwc:
         uwsgi:
           image:
             repository: sourcepole/qwc-feature-info-service
-            tag: v2024.08.28
+            tag: v2024.11.18
             sha: ''
           ports:
             <<: *common-ports
@@ -470,7 +470,7 @@ qwc:
         uwsgi:
           image:
             repository: sourcepole/qwc-map-viewer-demo
-            tag: v2024.16-lts
+            tag: v2024.18-lts
             sha: ''
           ports:
             <<: *common-ports
@@ -492,7 +492,7 @@ qwc:
         uwsgi:
           image:
             repository: sourcepole/qwc-ogc-service
-            tag: v2024.4-lts
+            tag: v2024.5-lts
             sha: ''
           ports:
             <<: *common-ports
