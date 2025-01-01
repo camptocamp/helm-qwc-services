@@ -174,7 +174,7 @@ qwc:
         uwsgi:
           image:
             repository: sourcepole/qwc-admin-gui
-            tag: v2024.6-lts
+            tag: v2024.8-lts
             sha: ''
           ports:
             <<: *common-ports
@@ -346,7 +346,7 @@ qwc:
         uwsgi:
           image:
             repository: sourcepole/qwc-feature-info-service
-            tag: v2024.11.18
+            tag: v2024.12.10
             sha: ''
           ports:
             <<: *common-ports
