@@ -868,7 +868,7 @@ spec:
         - name: uwsgi
           securityContext:
             {}
-          image: "sourcepole/qwc-admin-gui:v2024.6-lts"
+          image: "sourcepole/qwc-admin-gui:v2024.8-lts"
           imagePullPolicy: IfNotPresent
           env:
             - name: "DEFAULT_LOCALE"
@@ -1341,7 +1341,7 @@ spec:
         - name: uwsgi
           securityContext:
             {}
-          image: "sourcepole/qwc-feature-info-service:v2024.11.18"
+          image: "sourcepole/qwc-feature-info-service:v2024.12.10"
           imagePullPolicy: IfNotPresent
           env:
             - name: "JWT_COOKIE_CSRF_PROTECT"
