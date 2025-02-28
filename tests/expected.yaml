@@ -1861,7 +1861,7 @@ spec:
         - name: uwsgi
           securityContext:
             {}
-          image: "sourcepole/qwc-print-service:v2024.2-lts"
+          image: "sourcepole/qwc-print-service:v2025.1-lts"
           imagePullPolicy: IfNotPresent
           env:
             - name: "JWT_COOKIE_CSRF_PROTECT"
