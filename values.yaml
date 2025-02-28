@@ -174,7 +174,7 @@ qwc:
         uwsgi:
           image:
             repository: sourcepole/qwc-admin-gui
-            tag: v2024.8-lts
+            tag: v2025.1-lts
             sha: ''
           ports:
             <<: *common-ports
