@@ -446,7 +446,7 @@ qwc:
         uwsgi:
           image:
             repository: sourcepole/qwc-print-service
-            tag: v2024.2-lts
+            tag: v2025.1-lts
             sha: ''
           ports:
             <<: *common-ports
