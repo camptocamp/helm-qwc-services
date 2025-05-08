@@ -273,7 +273,7 @@ qwc:
         uwsgi:
           image:
             repository: sourcepole/qwc-data-service
-            tag: v2024.5-lts
+            tag: v2025.4-lts
             sha: ''
           ports:
             <<: *common-ports
