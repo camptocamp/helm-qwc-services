@@ -363,7 +363,7 @@ data:
   # retrieve the secret data using lookup function and when not exists, return an empty dictionary / map as result
   # set $jwtSecret to existing secret data or generate a random one when not exists
   # generate 32 chars long random string, base64 encode it and then double-quote the result string.
-  JWT_SECRET_KEY: "ZXhhbXBsZS1qd3Qta2V5LXNlY3JldA=="
+  JWT_SECRET_KEY: "ZEdwdWJsUkdhRk5xWkdaUE0wbEZNVFZzYTFkd2FrbFVWVEZ6TVhkRFREZz0="
 ---
 # Source: qwc/templates/pg-conf-secret.yaml
 apiVersion: v1

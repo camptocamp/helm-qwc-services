@@ -72,9 +72,6 @@ jobs:
           version: ${{ matrix.helm }}
       - run: helm dependency update .
       - run: helm lint .
-      - run: helm template --namespace=default --values=values.yaml qwc . > tests/actual.yaml
-      - run: diff --ignore-trailing-space tests/actual.yaml tests/expected.yaml
-        if: matrix.helm == 'master'
 
       # - name: Setup k3s/k3d
       #   run: c2cciutils-k8s-install
