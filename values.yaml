@@ -370,7 +370,7 @@ qwc:
         uwsgi:
           image:
             repository: sourcepole/qwc-fulltext-search-service
-            tag: v2024.4-lts
+            tag: v2025.3-lts
             sha: ''
           ports:
             <<: *common-ports
