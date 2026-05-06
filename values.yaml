@@ -516,7 +516,7 @@ qwc:
         uwsgi:
           image:
             repository: sourcepole/qwc-permalink-service
-            tag: v2024.4-lts
+            tag: v2025.2-lts
             sha: ''
           ports:
             <<: *common-ports
