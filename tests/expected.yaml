@@ -1567,7 +1567,7 @@ spec:
         - name: uwsgi
           securityContext:
             {}
-          image: "sourcepole/qwc-map-viewer-demo:v2024.18-lts"
+          image: "sourcepole/qwc-map-viewer-demo:v2025.6-lts"
           imagePullPolicy: IfNotPresent
           env:
             - name: "JWT_COOKIE_CSRF_PROTECT"
