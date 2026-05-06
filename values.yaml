@@ -234,7 +234,7 @@ qwc:
         uwsgi:
           image:
             repository: sourcepole/qwc-config-generator
-            tag: v2024.7-lts
+            tag: v2025.5-lts
             sha: ''
           ports:
             <<: *common-ports
