@@ -206,7 +206,7 @@ qwc:
         uwsgi:
           image:
             repository: sourcepole/qwc-db-auth
-            tag: v2024.4-lts
+            tag: v2025.1-lts
             sha: ''
           ports:
             <<: *common-ports
