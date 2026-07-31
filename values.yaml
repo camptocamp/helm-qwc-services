@@ -120,7 +120,7 @@ qgis:
         qgis:
           image:
             repository: sourcepole/qwc-qgis-server
-            tag: '3.44'
+            tag: '4.0'
             sha: ''
           ports:
             http:
