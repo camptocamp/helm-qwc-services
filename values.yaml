@@ -346,7 +346,7 @@ qwc:
         uwsgi:
           image:
             repository: sourcepole/qwc-feature-info-service
-            tag: v2024.12.10
+            tag: v2025.02.06
             sha: ''
           ports:
             <<: *common-ports
