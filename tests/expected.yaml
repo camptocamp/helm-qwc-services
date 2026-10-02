@@ -18,7 +18,6 @@ spec:
       app.kubernetes.io/name: qgis
       app.kubernetes.io/instance: qwc
       app.kubernetes.io/component: qgis-server
-
 ---
 # Source: qwc/charts/qwc/templates/pdb.yaml
 apiVersion: policy/v1
@@ -39,7 +38,6 @@ spec:
       app.kubernetes.io/name: qwc
       app.kubernetes.io/instance: qwc
       app.kubernetes.io/component: admin-gui
-
 ---
 # Source: qwc/charts/qwc/templates/pdb.yaml
 apiVersion: policy/v1
@@ -60,7 +58,6 @@ spec:
       app.kubernetes.io/name: qwc
       app.kubernetes.io/instance: qwc
       app.kubernetes.io/component: auth-service
-
 ---
 # Source: qwc/charts/qwc/templates/pdb.yaml
 apiVersion: policy/v1
@@ -81,7 +78,6 @@ spec:
       app.kubernetes.io/name: qwc
       app.kubernetes.io/instance: qwc
       app.kubernetes.io/component: config-service
-
 ---
 # Source: qwc/charts/qwc/templates/pdb.yaml
 apiVersion: policy/v1
@@ -102,7 +98,6 @@ spec:
       app.kubernetes.io/name: qwc
       app.kubernetes.io/instance: qwc
       app.kubernetes.io/component: data-service
-
 ---
 # Source: qwc/charts/qwc/templates/pdb.yaml
 apiVersion: policy/v1
@@ -123,7 +118,6 @@ spec:
       app.kubernetes.io/name: qwc
       app.kubernetes.io/instance: qwc
       app.kubernetes.io/component: document-service
-
 ---
 # Source: qwc/charts/qwc/templates/pdb.yaml
 apiVersion: policy/v1
@@ -144,7 +138,6 @@ spec:
       app.kubernetes.io/name: qwc
       app.kubernetes.io/instance: qwc
       app.kubernetes.io/component: elevation-service
-
 ---
 # Source: qwc/charts/qwc/templates/pdb.yaml
 apiVersion: policy/v1
@@ -165,7 +158,6 @@ spec:
       app.kubernetes.io/name: qwc
       app.kubernetes.io/instance: qwc
       app.kubernetes.io/component: feature-info-service
-
 ---
 # Source: qwc/charts/qwc/templates/pdb.yaml
 apiVersion: policy/v1
@@ -186,7 +178,6 @@ spec:
       app.kubernetes.io/name: qwc
       app.kubernetes.io/instance: qwc
       app.kubernetes.io/component: fulltext-search-service
-
 ---
 # Source: qwc/charts/qwc/templates/pdb.yaml
 apiVersion: policy/v1
@@ -207,7 +198,6 @@ spec:
       app.kubernetes.io/name: qwc
       app.kubernetes.io/instance: qwc
       app.kubernetes.io/component: legend-service
-
 ---
 # Source: qwc/charts/qwc/templates/pdb.yaml
 apiVersion: policy/v1
@@ -228,7 +218,6 @@ spec:
       app.kubernetes.io/name: qwc
       app.kubernetes.io/instance: qwc
       app.kubernetes.io/component: map-viewer
-
 ---
 # Source: qwc/charts/qwc/templates/pdb.yaml
 apiVersion: policy/v1
@@ -249,7 +238,6 @@ spec:
       app.kubernetes.io/name: qwc
       app.kubernetes.io/instance: qwc
       app.kubernetes.io/component: mapinfo-service
-
 ---
 # Source: qwc/charts/qwc/templates/pdb.yaml
 apiVersion: policy/v1
@@ -270,7 +258,6 @@ spec:
       app.kubernetes.io/name: qwc
       app.kubernetes.io/instance: qwc
       app.kubernetes.io/component: ogc-service
-
 ---
 # Source: qwc/charts/qwc/templates/pdb.yaml
 apiVersion: policy/v1
@@ -291,7 +278,6 @@ spec:
       app.kubernetes.io/name: qwc
       app.kubernetes.io/instance: qwc
       app.kubernetes.io/component: permalink-service
-
 ---
 # Source: qwc/charts/qwc/templates/pdb.yaml
 apiVersion: policy/v1
@@ -312,7 +298,6 @@ spec:
       app.kubernetes.io/name: qwc
       app.kubernetes.io/instance: qwc
       app.kubernetes.io/component: print-service
-
 ---
 # Source: qwc/charts/qwc/templates/pdb.yaml
 apiVersion: policy/v1
@@ -333,7 +318,6 @@ spec:
       app.kubernetes.io/name: qwc
       app.kubernetes.io/instance: qwc
       app.kubernetes.io/component: solr
-
 ---
 # Source: qwc/charts/qgis/templates/secret-docker-registry.yaml
 apiVersion: v1
@@ -350,7 +334,6 @@ metadata:
 type: kubernetes.io/dockerconfigjson
 data:
   .dockerconfigjson: ewogICJhdXRocyI6IHsKICAgICJmaXgtZW5kLWNvbW1hIjogeyJhdXRoIjogIiJ9CiAgfQp9
-
 ---
 # Source: qwc/charts/qwc/templates/secret-docker-registry.yaml
 apiVersion: v1
@@ -367,7 +350,6 @@ metadata:
 type: kubernetes.io/dockerconfigjson
 data:
   .dockerconfigjson: ewogICJhdXRocyI6IHsKICAgICJmaXgtZW5kLWNvbW1hIjogeyJhdXRoIjogIiJ9CiAgfQp9
-
 ---
 # Source: qwc/templates/jwt-secret.yaml
 apiVersion: v1
@@ -382,7 +364,6 @@ data:
   # set $jwtSecret to existing secret data or generate a random one when not exists
   # generate 32 chars long random string, base64 encode it and then double-quote the result string.
   JWT_SECRET_KEY: "ZXhhbXBsZS1qd3Qta2V5LXNlY3JldA=="
-
 ---
 # Source: qwc/templates/pg-conf-secret.yaml
 apiVersion: v1
@@ -417,7 +398,6 @@ spec:
     app.kubernetes.io/name: qgis
     app.kubernetes.io/instance: qwc
     app.kubernetes.io/component: qgis-server
-
 ---
 # Source: qwc/charts/qwc/templates/service.yaml
 apiVersion: v1
@@ -442,7 +422,6 @@ spec:
     app.kubernetes.io/name: qwc
     app.kubernetes.io/instance: qwc
     app.kubernetes.io/component: admin-gui
-
 ---
 # Source: qwc/charts/qwc/templates/service.yaml
 apiVersion: v1
@@ -467,7 +446,6 @@ spec:
     app.kubernetes.io/name: qwc
     app.kubernetes.io/instance: qwc
     app.kubernetes.io/component: auth-service
-
 ---
 # Source: qwc/charts/qwc/templates/service.yaml
 apiVersion: v1
@@ -492,7 +470,6 @@ spec:
     app.kubernetes.io/name: qwc
     app.kubernetes.io/instance: qwc
     app.kubernetes.io/component: config-service
-
 ---
 # Source: qwc/charts/qwc/templates/service.yaml
 apiVersion: v1
@@ -517,7 +494,6 @@ spec:
     app.kubernetes.io/name: qwc
     app.kubernetes.io/instance: qwc
     app.kubernetes.io/component: data-service
-
 ---
 # Source: qwc/charts/qwc/templates/service.yaml
 apiVersion: v1
@@ -542,7 +518,6 @@ spec:
     app.kubernetes.io/name: qwc
     app.kubernetes.io/instance: qwc
     app.kubernetes.io/component: document-service
-
 ---
 # Source: qwc/charts/qwc/templates/service.yaml
 apiVersion: v1
@@ -567,7 +542,6 @@ spec:
     app.kubernetes.io/name: qwc
     app.kubernetes.io/instance: qwc
     app.kubernetes.io/component: elevation-service
-
 ---
 # Source: qwc/charts/qwc/templates/service.yaml
 apiVersion: v1
@@ -592,7 +566,6 @@ spec:
     app.kubernetes.io/name: qwc
     app.kubernetes.io/instance: qwc
     app.kubernetes.io/component: feature-info-service
-
 ---
 # Source: qwc/charts/qwc/templates/service.yaml
 apiVersion: v1
@@ -617,7 +590,6 @@ spec:
     app.kubernetes.io/name: qwc
     app.kubernetes.io/instance: qwc
     app.kubernetes.io/component: fulltext-search-service
-
 ---
 # Source: qwc/charts/qwc/templates/service.yaml
 apiVersion: v1
@@ -642,7 +614,6 @@ spec:
     app.kubernetes.io/name: qwc
     app.kubernetes.io/instance: qwc
     app.kubernetes.io/component: legend-service
-
 ---
 # Source: qwc/charts/qwc/templates/service.yaml
 apiVersion: v1
@@ -667,7 +638,6 @@ spec:
     app.kubernetes.io/name: qwc
     app.kubernetes.io/instance: qwc
     app.kubernetes.io/component: map-viewer
-
 ---
 # Source: qwc/charts/qwc/templates/service.yaml
 apiVersion: v1
@@ -692,7 +662,6 @@ spec:
     app.kubernetes.io/name: qwc
     app.kubernetes.io/instance: qwc
     app.kubernetes.io/component: mapinfo-service
-
 ---
 # Source: qwc/charts/qwc/templates/service.yaml
 apiVersion: v1
@@ -717,7 +686,6 @@ spec:
     app.kubernetes.io/name: qwc
     app.kubernetes.io/instance: qwc
     app.kubernetes.io/component: ogc-service
-
 ---
 # Source: qwc/charts/qwc/templates/service.yaml
 apiVersion: v1
@@ -742,7 +710,6 @@ spec:
     app.kubernetes.io/name: qwc
     app.kubernetes.io/instance: qwc
     app.kubernetes.io/component: permalink-service
-
 ---
 # Source: qwc/charts/qwc/templates/service.yaml
 apiVersion: v1
@@ -767,7 +734,6 @@ spec:
     app.kubernetes.io/name: qwc
     app.kubernetes.io/instance: qwc
     app.kubernetes.io/component: print-service
-
 ---
 # Source: qwc/charts/qwc/templates/service.yaml
 apiVersion: v1
@@ -792,7 +758,6 @@ spec:
     app.kubernetes.io/name: qwc
     app.kubernetes.io/instance: qwc
     app.kubernetes.io/component: solr
-
 ---
 # Source: qwc/charts/qgis/templates/deployment.yaml
 apiVersion: apps/v1
@@ -864,7 +829,6 @@ spec:
             items:
             - key: pg_service_conf
               path: pg_service.conf
-
 ---
 # Source: qwc/charts/qwc/templates/deployment.yaml
 apiVersion: apps/v1
@@ -947,7 +911,6 @@ spec:
             items:
             - key: pg_service_conf
               path: pg_service.conf
-
 ---
 # Source: qwc/charts/qwc/templates/deployment.yaml
 apiVersion: apps/v1
@@ -1026,7 +989,6 @@ spec:
             items:
             - key: pg_service_conf
               path: pg_service.conf
-
 ---
 # Source: qwc/charts/qwc/templates/deployment.yaml
 apiVersion: apps/v1
@@ -1116,7 +1078,6 @@ spec:
             items:
             - key: pg_service_conf
               path: pg_service.conf
-
 ---
 # Source: qwc/charts/qwc/templates/deployment.yaml
 apiVersion: apps/v1
@@ -1195,7 +1156,6 @@ spec:
             items:
             - key: pg_service_conf
               path: pg_service.conf
-
 ---
 # Source: qwc/charts/qwc/templates/deployment.yaml
 apiVersion: apps/v1
@@ -1270,7 +1230,6 @@ spec:
             items:
             - key: pg_service_conf
               path: pg_service.conf
-
 ---
 # Source: qwc/charts/qwc/templates/deployment.yaml
 apiVersion: apps/v1
@@ -1343,7 +1302,6 @@ spec:
             items:
             - key: pg_service_conf
               path: pg_service.conf
-
 ---
 # Source: qwc/charts/qwc/templates/deployment.yaml
 apiVersion: apps/v1
@@ -1418,7 +1376,6 @@ spec:
             items:
             - key: pg_service_conf
               path: pg_service.conf
-
 ---
 # Source: qwc/charts/qwc/templates/deployment.yaml
 apiVersion: apps/v1
@@ -1493,7 +1450,6 @@ spec:
             items:
             - key: pg_service_conf
               path: pg_service.conf
-
 ---
 # Source: qwc/charts/qwc/templates/deployment.yaml
 apiVersion: apps/v1
@@ -1572,7 +1528,6 @@ spec:
             items:
             - key: pg_service_conf
               path: pg_service.conf
-
 ---
 # Source: qwc/charts/qwc/templates/deployment.yaml
 apiVersion: apps/v1
@@ -1645,7 +1600,6 @@ spec:
             items:
             - key: pg_service_conf
               path: pg_service.conf
-
 ---
 # Source: qwc/charts/qwc/templates/deployment.yaml
 apiVersion: apps/v1
@@ -1720,7 +1674,6 @@ spec:
             items:
             - key: pg_service_conf
               path: pg_service.conf
-
 ---
 # Source: qwc/charts/qwc/templates/deployment.yaml
 apiVersion: apps/v1
@@ -1795,7 +1748,6 @@ spec:
             items:
             - key: pg_service_conf
               path: pg_service.conf
-
 ---
 # Source: qwc/charts/qwc/templates/deployment.yaml
 apiVersion: apps/v1
@@ -1870,7 +1822,6 @@ spec:
             items:
             - key: pg_service_conf
               path: pg_service.conf
-
 ---
 # Source: qwc/charts/qwc/templates/deployment.yaml
 apiVersion: apps/v1
@@ -1945,7 +1896,6 @@ spec:
             items:
             - key: pg_service_conf
               path: pg_service.conf
-
 ---
 # Source: qwc/charts/qwc/templates/deployment.yaml
 apiVersion: apps/v1
