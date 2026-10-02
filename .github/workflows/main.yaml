@@ -52,7 +52,7 @@ jobs:
       # stable Helm version instead of the runner's preinstalled one, and
       # run it on a single matrix leg only.
       - name: Install helm (early, for pre-commit hooks)
-        uses: azure/setup-helm@v5
+        uses: azure/setup-helm@9bc31f4ebc9c6b171d7bfbaa5d006ae7abdb4310 # v5.0.1
         with:
           version: 3.21.4
         if: matrix.helm == 'latest'
